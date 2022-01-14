@@ -689,8 +689,7 @@ progress {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
+
 }
 .row > * {
   flex-shrink: 0;
@@ -11858,10 +11857,19 @@ hr.name_line {
   margin-top: -70px;
 }
 
+.read_more_div3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
 #readmorecontainer {
   margin-top: 30px;
 }
 #readmorecontainer2 {
+  margin-top: 30px;
+}
+
+#readmorecontainer3 {
   margin-top: 30px;
 }
 
@@ -11936,11 +11944,20 @@ hr.name_line {
 
 #more4 {display: none;}
 
+#more5 {display: none;}
+
+#more6 {display: none;}
+
+#more7 {display: none;}
+
 #readmorecontainer {
   display: none;
 }
 
 #readmorecontainer2
+{display: none;}
+
+#readmorecontainer3
 {display: none;}
 
 
@@ -11950,29 +11967,26 @@ hr.name_line {
 }
 
 .block1 {
-  padding: 10px;
+  padding: -10px;
   border-style: solid;
   border-width: 5px;
   border-color: coral;
 }
 
 .block2 {
-  padding: 10px;
   border-style: solid;
   border-width: 5px;
   border-color: red;
 }
 
 .block3 {
-  padding: 10px;
   border-style: solid;
   border-width: 5px;
   border-color: blue;
 }
 
 .block4 {
-  padding: 10px;
-  border-style: solid;
+    border-style: solid;
   border-width: 5px;
   border-color: green;
 }
@@ -12025,6 +12039,52 @@ hr.name_line {
 }
 
 .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #2D2E30;
+}
+
+.styled-1 {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    width: 30em;
+    height: 15em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 768px) {
+  .styled-table1 {
+      border-collapse: collapse;
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 0.9em;
+      width: 50em;
+      height: 25em;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+}
+.styled-table1 thead tr {
+    background-color:#2D2E30;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table1 th,
+.styled-table1 td {
+    padding: 15px 20px;
+}
+
+.styled-table1 tbody td {
+    text-align: left;
+}
+
+.styled-table1 tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table1 tbody tr:last-of-type {
     border-bottom: 2px solid #2D2E30;
 }
 
