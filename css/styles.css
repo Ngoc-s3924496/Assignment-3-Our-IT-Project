@@ -11865,6 +11865,7 @@ hr.name_line {
   margin-top: 30px;
 }
 
+
 .read_more_button {
   margin-top: 1.75rem;
   padding: 0.5rem 1.85rem;
@@ -11941,10 +11942,41 @@ hr.name_line {
 
 #readmorecontainer2
 {display: none;}
+
+
 .block {
   padding: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+
+.block1 {
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: coral;
+}
+
+.block2 {
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+
+.block3 {
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+}
+
+.block4 {
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+
 
 .styled-table {
     border-collapse: collapse;
