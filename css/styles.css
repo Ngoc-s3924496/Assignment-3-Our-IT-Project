@@ -621,6 +621,11 @@ progress {
   height: auto;
 }
 
+.img-fluid5 {
+  max-width: 70%;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11930,6 +11935,13 @@ hr.name_line {
   background-size: cover;
 }
 
+.bg-skill {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.252),rgba(0, 0, 0, 0.25)), url("../assets/img/skill/2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .bg-footer {
   background-color: #2F2F2F;
 }
@@ -11992,25 +12004,25 @@ hr.name_line {
   padding: -10px;
   border-style: solid;
   border-width: 5px;
-  border-color: coral;
+  border-color: #6E3CBC;
 }
 
 .block2 {
   border-style: solid;
   border-width: 5px;
-  border-color: red;
+  border-color: #7267CB;
 }
 
 .block3 {
   border-style: solid;
   border-width: 5px;
-  border-color: blue;
+  border-color: #98BAE7;
 }
 
 .block4 {
     border-style: solid;
   border-width: 5px;
-  border-color: green;
+  border-color: #B8E4F0;
 }
 
 
